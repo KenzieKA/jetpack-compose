@@ -11,6 +11,8 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import kenz.jetpacktumblr.ViewModelFactory
+import kenz.jetpacktumblr.di.Injection
 import kenz.jetpacktumblr.model.Tumblr
 import kenz.jetpacktumblr.ui.common.UiState
 import kenz.jetpacktumblr.ui.navigation.Screen
@@ -26,7 +28,7 @@ fun HomeScreen(
     viewModel.uiState.collectAsState(initial = UiState.Loading).value.let { uiState ->
         when (uiState) {
             is UiState.Loading -> {
-                viewModel.getAllRewards()
+                viewModel.getAllTumblr()
             }
             is UiState.Success -> {
                 HomeContent(
@@ -55,10 +57,10 @@ fun HomeContent(
     ) {
         items(detailTumblr) { data ->
             TumblrItem(
-                image = data.reward.image,
-                title = data.reward.title,
+                image = data.image,
+                title = data.title,
                 modifier = Modifier.clickable {
-                    navigateToDetail(data.reward.id)
+                    navigateToDetail(data.id)
                 }
             )
         }

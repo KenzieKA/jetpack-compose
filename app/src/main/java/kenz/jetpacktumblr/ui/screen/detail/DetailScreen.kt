@@ -25,6 +25,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import kenz.jetpacktumblr.R
+import kenz.jetpacktumblr.ViewModelFactory
+import kenz.jetpacktumblr.di.Injection
 import kenz.jetpacktumblr.ui.common.UiState
 import kenz.jetpacktumblr.ui.theme.JetpackTumblrTheme
 
@@ -117,7 +119,7 @@ fun DetailContentPreview() {
         DetailContent(
             R.drawable.satu,
             "Dummy1",
-            "Description 1",
+            "Take the workout class, tackle weekend errands, chill poolside and do it all with your new hydration buddy in tow. The Corkcicle Cold Cup features our signature triple insulation, a ceramic-coated straw, and a sleek cup holder-friendly design making it the ideal way to sip in style no matter where thirst strikes.",
             onBackClick = {},
         )
     }

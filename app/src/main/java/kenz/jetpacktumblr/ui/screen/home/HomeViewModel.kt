@@ -20,7 +20,7 @@ class HomeViewModel(
         viewModelScope.launch {
             repository.getAllRewards()
                 .catch {
-                    _uiState.value = UiState.Error(it.message.toString())
+                    _uiState.value = UiState.Error(this.message.toString())
                 }
                 .collect { tumblr ->
                     _uiState.value = UiState.Success(tumblr)

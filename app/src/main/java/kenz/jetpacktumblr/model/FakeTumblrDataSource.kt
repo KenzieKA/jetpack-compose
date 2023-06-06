@@ -4,15 +4,15 @@ import kenz.jetpacktumblr.R
 
 object FakeTumblrDataSource {
     val dummyTumblrs = listOf(
-        Tumblr(1, R.drawable.satu, "CORKCICLE. Cold Cup (color: Santorini)"),
-        Tumblr(2, R.drawable.dua, "CORKCICLE. Sierra Commuter Cup (color: Dune)"),
-        Tumblr(3, R.drawable.tiga, "CORKCICLE. Commuter Cup (color: Dragonfly)"),
-        Tumblr(4, R.drawable.empat, "CORKCICLE. Origins Tumbler (color: Blue Marble)"),
-        Tumblr(5, R.drawable.lima, "CORKCICLE. Marvel Commuter Cup"),
-        Tumblr(6, R.drawable.enam, "CORKCICLE. Gray Malin Tumbler (color: Surfers)"),
-        Tumblr(7, R.drawable.tujuh, "CORKCICLE. Vineyard Vines Tumbler (color: Blue Camo)"),
-        Tumblr(8, R.drawable.delapan, "CORKCICLE. Coastal Swirl Tumbler"),
-        Tumblr(9, R.drawable.sembilan, "CORKCICLE. Stance X Corkcicle Sport Canteen (color: Warbirds)"),
-        Tumblr(10, R.drawable.sepuluh, "CORKCICLE. Prismatic Canteen (color: Prismatic)")
+        Tumblr(1, R.drawable.satu, "CORKCICLE. Cold Cup (color: Santorini)", "Take the workout class, tackle weekend errands, chill poolside and do it all with your new hydration buddy in tow. The Corkcicle Cold Cup features our signature triple insulation, a ceramic-coated straw, and a sleek cup holder-friendly design making it the ideal way to sip in style no matter where thirst strikes."),
+        Tumblr(2, R.drawable.dua, "CORKCICLE. Sierra Commuter Cup (color: Dune)", "Keep your travels smooth and your style cool with the all-new Sierra Collection. Classic Corkcicle silhouettes are now available in hues inspired by nature, designed for adventure, and made to last."),
+        Tumblr(3, R.drawable.tiga, "CORKCICLE. Commuter Cup (color: Dragonfly)", "Elevate every AM train ride, weekend trail trek, and moving moment with all-new spill-proof Commuter Cup. Designed with a spill-proof 360° Sip Lid, it is perfect for the modern traveler, the city dweller, or anyone who needs a quick sip. Available in 9oz and 17oz sizes. 18 hours cold, 5 hours hot."),
+        Tumblr(4, R.drawable.empat, "CORKCICLE. Origins Tumbler (color: Blue Marble)", "The Origins Tumbler is as naturally cool as it gets. Available in several patterned color ways, each with a sleek, matte finish. Keeps your favorite drinks cold for 9+ hours or hot for up to 3."),
+        Tumblr(5, R.drawable.lima, "CORKCICLE. Marvel Commuter Cup", "Elevate every AM train ride, weekend trail trek, and moving moment with all-new spill-proof Spiderman Commuter Cup. Designed with a spill-proof 360° Sip Lid, it is perfect for the modern traveler, the city dweller, or anyone who needs a quick sip. 18 hours cold, 5 hours hot."),
+        Tumblr(6, R.drawable.enam, "CORKCICLE. Gray Malin Tumbler (color: Surfers)", "High performance meets high art with the Gray Malin 16oz Tumbler. Crafted from stainless steel with proprietary triple insulation, it keeps contents cold for 9+ hours (longer with ice!) and hot for 3—while bringing summer vibes from the beach to the boardroom."),
+        Tumblr(7, R.drawable.tujuh, "CORKCICLE. Vineyard Vines Tumbler (color: Blue Camo)", "Casual and cool. Corkcicle and vineyard vines have partnered to bring you a collection of dapper Drinkware that’s perfect for summertime and beyond. Inspired by classic, nautical East Coast style, each pattern was made to bring a smile to your face with every sip. vineyard vines 24oz Tumbler works wonderfully for drinks of every type — from morning smoothies to water to 3pm coffee. Keeps stuff cold for 9 hours or hot for 3."),
+        Tumblr(8, R.drawable.delapan, "CORKCICLE. Coastal Swirl Tumbler", "Laid-back groovy vibes achieved. Classic tie-dye goes beachy with our all-new Coastal Swirl print available in our classic Drinkware styles. Soft, heavenly hues create a laid-back version of this on-trend print that is perfect for all your everyday hydration needs. 24oz Tumbler keeps drinks cold for 9 hours and hot for up to 3. Stays cold even longer with drinks containing ice. Plus, it comes with a sliding, shatterproof lid."),
+        Tumblr(9, R.drawable.sembilan, "CORKCICLE. Stance X Corkcicle Sport Canteen (color: Warbirds)", "Embrace the spirit of individuality with uncommonly cool designs that will set your sips apart from the rest with the limited-edition STANCE x Corkcicle Collection. Sport Canteen is great for the at-home office, tossing in your gym bag or just making sure you are getting enough water throughout the day. Keeps things cold for 25 hours, hot for 12."),
+        Tumblr(10, R.drawable.sepuluh, "CORKCICLE. Prismatic Canteen (color: Prismatic)", "Add some lustrous, eye-catching shine to every sip. Prismatic Canteen has a light-bending, silvery white hue that reflects every color of the rainbow — a true visual treat. Keeps water, wine, and more cold for 25 hours or hot beverage warm for up to 12. Please note, Prismatic Drinkware is handwash only.")
     )
 }

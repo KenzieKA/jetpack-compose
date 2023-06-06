@@ -23,6 +23,9 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import kenz.jetpacktumblr.ui.screen.detail.DetailScreen
+import kenz.jetpacktumblr.ui.screen.home.HomeScreen
+import kenz.jetpacktumblr.ui.screen.profile.ProfileScreen
 import kenz.jetpacktumblr.ui.theme.JetpackTumblrTheme
 
 @Composable
